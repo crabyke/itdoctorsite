@@ -1,0 +1,514 @@
+@-webkit-keyframes upanddown {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+@keyframes upanddown {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+#header {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(45, 62, 80, 0.5)), to(rgba(45, 62, 80, 0.5))), url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+  background: linear-gradient(0deg, rgba(45, 62, 80, 0.5), rgba(45, 62, 80, 0.5)), url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+#header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#header #logo {
+  margin: 1rem 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+
+#header ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 2rem;
+}
+
+#header li {
+  margin: 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#header a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+
+#header a:hover {
+  color: #2d3e50;
+}
+
+#header #banner {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+#header #banner h1 {
+  font-size: 3rem;
+  padding-bottom: 5rem;
+  width: 50%;
+}
+
+#header #banner #form {
+  width: 100%;
+}
+
+#header #banner #form input:focus, #header #banner #form textarea:focus, #header #banner #form select:focus {
+  outline: none;
+  border: none;
+}
+
+#header #banner #form input {
+  padding: 15px 20px;
+  margin-right: 1.5rem;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin-bottom: 5rem;
+}
+
+#header #banner #form .email {
+  width: 15%;
+}
+
+#header #banner #form button {
+  background: -webkit-gradient(linear, left top, right top, color-stop(27%, #9f56b0), color-stop(71%, #e04d46));
+  background: linear-gradient(90deg, #9f56b0 27%, #e04d46 71%);
+  padding: 15px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#header #banner #form h5 {
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+}
+
+#header #banner .fa-angle-down {
+  position: absolute;
+  bottom: 1rem;
+}
+
+#three-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2d3e50;
+  color: white;
+}
+
+#three-block .three {
+  width: 15%;
+  margin: 7rem 5rem;
+  text-align: center;
+}
+
+#three-block .three h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#three-block .three p {
+  font-weight: 400;
+  opacity: 0.8;
+  margin-top: 2rem;
+}
+
+#three-block .three i {
+  margin-bottom: 3rem;
+}
+
+#text-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5rem 5rem;
+}
+
+#text-video #text {
+  margin-right: 4rem;
+  width: 35%;
+}
+
+#text-video #text h2 {
+  color: #2d3e50;
+  font-weight: 400;
+}
+
+#text-video #text p {
+  opacity: 0.8;
+  margin-top: 1rem;
+}
+
+#text-video video {
+  width: 400px;
+  height: auto;
+}
+
+#three-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fafafa;
+}
+
+#three-cards img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#three-cards #card-header {
+  color: #2d3e50;
+  margin: 8rem 0rem 0rem 0rem;
+  letter-spacing: 1px;
+}
+
+#three-cards #cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5rem 5rem;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+#three-cards #cards .card {
+  background-color: white;
+  margin: 0rem 2rem;
+  width: 15%;
+}
+
+#three-cards #cards .card-text {
+  padding: 1rem;
+}
+
+#three-cards #cards .card-text h2 {
+  padding: 1rem 0rem;
+  font-size: 1rem;
+  color: #2d3e50;
+}
+
+#three-cards #cards .card-text p {
+  opacity: 0.8;
+}
+
+#three-cards #cards .card-text .level {
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
+#sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 5rem 0rem;
+}
+
+#sign-up #sign-up-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  color: #2d3e50;
+}
+
+#sign-up #sign-up-text #person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#sign-up #sign-up-text #person img {
+  width: 5%;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+#sign-up #sign-up-text #person #person-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#sign-up #sign-up-text #person #diploma {
+  font-weight: lighter;
+  opacity: 0.9;
+  font-size: 0.8rem;
+}
+
+#sign-up #sign-up-text #person .woman-name {
+  font-weight: 700;
+}
+
+#sign-up #sign-up-text .quote {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: grey;
+}
+
+#sign-up #sign-up-text #description {
+  margin: 1rem 0rem;
+  opacity: 0.7;
+}
+
+#sign-up #sign-up-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fafafa;
+  color: #2d3e50;
+  width: 20%;
+  padding: 2rem;
+}
+
+#sign-up #sign-up-form h3 {
+  margin: 1.5rem 1.5rem;
+  font-weight: 500;
+}
+
+#sign-up #sign-up-form input {
+  padding: 15px 20px;
+  margin: 1rem 1rem;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #dfdfdf;
+}
+
+#sign-up #sign-up-form button {
+  background: -webkit-gradient(linear, left top, right top, color-stop(27%, #9f56b0), color-stop(71%, #e04d46));
+  background: linear-gradient(90deg, #9f56b0 27%, #e04d46 71%);
+  padding: 10px 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 1rem 1rem;
+  cursor: pointer;
+}
+
+#course-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+#course-price h1 {
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  letter-spacing: 1px;
+  color: #2d3e50;
+}
+
+#course-price .price-card-text-top {
+  margin-bottom: 3rem;
+  width: 30%;
+  opacity: 0.6;
+}
+
+#course-price #price-card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 5rem;
+}
+
+#course-price .level {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+
+#course-price .price {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#course-price .dollar {
+  font-size: 0.8rem;
+  vertical-align: super;
+}
+
+#course-price #price-card1 {
+  color: #2d3e50;
+  padding: 1rem;
+}
+
+#course-price #price-card2 {
+  color: white;
+  background-color: #2d3e50;
+  padding: 3rem;
+}
+
+#course-price button {
+  padding: 10px 40px;
+  border-radius: 20px;
+  background-color: #2d3e50;
+  border: none;
+  outline-style: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 1px solid white;
+}
+
+#course-price .price-card-text {
+  margin: 3rem 0rem;
+  opacity: 0.7;
+}
+
+#course-price .price-card-text2 {
+  margin: 2rem 0rem;
+  padding: 1rem 0rem;
+  border-top: 1px white solid;
+  opacity: 0.7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  border: 1px solid white;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=style.css.map */

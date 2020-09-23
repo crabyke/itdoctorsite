@@ -1,0 +1,66 @@
+#course-price {
+    @include flexCenter;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fafafa;
+    h1 {
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+        letter-spacing: 1px;
+        color: $metalBlue;
+    }
+    .price-card-text-top {
+        margin-bottom: 3rem;
+        width: 30%;
+        opacity: 0.6;
+    }
+    #price-card-container {
+        @include flexCenter;
+        text-align: center;
+        width: 30%;
+        margin-bottom: 5rem;
+    }
+    .level {
+        font-size: 0.6rem;
+        text-transform: uppercase;
+    }
+    .price {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .dollar {
+        font-size: 0.8rem;
+        vertical-align: super;
+    }
+    #price-card1 {
+        color: $metalBlue;
+        padding: 1rem;
+    }
+    #price-card2 {
+        color: white;
+        background-color: $metalBlue;
+        padding: 3rem;
+    }
+    button {
+        padding: 10px 40px;
+        border-radius: 20px;
+        background-color: $metalBlue;
+        border: none;
+        outline-style: none;
+        color:white;
+        font-weight: bold;
+        letter-spacing: 1px;
+        border: 1px solid white;
+    }
+    .price-card-text {
+        margin: 3rem 0rem;
+        opacity: 0.7;
+    }
+    .price-card-text2 {
+        margin: 2rem 0rem;
+        padding: 1rem 0rem;
+        border-top: 1px white solid;
+        opacity: 0.7;
+    }
+}

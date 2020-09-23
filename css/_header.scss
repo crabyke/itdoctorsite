@@ -1,0 +1,87 @@
+#header {
+    background:linear-gradient(0deg, rgba(45, 62, 80, 0.5), rgba(45, 62, 80, 0.5)), url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    #logo {
+        margin: 1rem 2rem;
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        margin-right: 2rem;
+    }
+    li {
+        margin: 1rem;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.3s ease-in;
+        &:hover {
+            color: $metalBlue;
+        }
+    }
+    #banner {
+        height: 100vh;
+        @include flexCenter;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        h1 {
+            font-size: 3rem;
+            padding-bottom: 5rem;
+            width: 50%;
+        }
+        #form {
+            width: 100%;
+            input:focus, textarea:focus, select:focus{
+                outline: none;
+                border: none;
+            }
+            input {
+                padding: 15px 20px;
+                margin-right: 1.5rem;
+                border-radius: 20px;
+                outline: none;
+                border: none;
+                margin-bottom: 5rem;
+            }
+            .email {
+                width: 15%;
+            }
+            button {
+                background: $primaryBtn;
+                padding: 15px 20px;
+                border-radius: 20px;
+                outline: none;
+                border: none;
+                color: white;
+                font-weight: 700;
+                letter-spacing: 1px;
+                cursor: pointer;
+            }
+            h5 {
+                font-weight: 400;
+                font-size: 0.8rem;
+                letter-spacing: 1px;
+                margin-bottom: 3rem;
+            }
+        }
+        .fa-angle-down {
+            position: absolute;
+            bottom: 1rem;
+        }
+    }
+}
