@@ -1,0 +1,24 @@
+#get-in-touch {
+    @include flexCenter;
+    flex-direction: column;
+    padding: 3rem 0rem;
+    h1 {
+        color: $metalBlue;
+        letter-spacing: 1px;
+        margin-bottom: 2rem;
+    }
+    .contact {
+        margin: 1rem 0rem 2rem 0rem;
+    }
+    i {
+        color: $metalBlue;
+        transition: filter 0.3s ease-in;
+        cursor: pointer;
+        &:hover {
+            filter: invert(1);
+        }
+    }
+    .fa-instagram-square {
+        margin: 0rem 1.5rem;
+    }
+}

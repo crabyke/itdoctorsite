@@ -444,7 +444,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  width: 30%;
+  width: 40%;
   margin-bottom: 5rem;
 }
 
@@ -466,12 +466,14 @@
 #course-price #price-card1 {
   color: #2d3e50;
   padding: 1rem;
+  margin: 0rem 2rem;
 }
 
 #course-price #price-card2 {
   color: white;
   background-color: #2d3e50;
   padding: 3rem;
+  margin: 0rem 2rem;
 }
 
 #course-price button {
@@ -484,6 +486,7 @@
   font-weight: bold;
   letter-spacing: 1px;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 #course-price .price-card-text {
@@ -496,6 +499,51 @@
   padding: 1rem 0rem;
   border-top: 1px white solid;
   opacity: 0.7;
+}
+
+#get-in-touch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3rem 0rem;
+}
+
+#get-in-touch h1 {
+  color: #2d3e50;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+#get-in-touch .contact {
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+#get-in-touch i {
+  color: #2d3e50;
+  -webkit-transition: -webkit-filter 0.3s ease-in;
+  transition: -webkit-filter 0.3s ease-in;
+  transition: filter 0.3s ease-in;
+  transition: filter 0.3s ease-in, -webkit-filter 0.3s ease-in;
+  cursor: pointer;
+}
+
+#get-in-touch i:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+#get-in-touch .fa-instagram-square {
+  margin: 0rem 1.5rem;
 }
 
 * {
