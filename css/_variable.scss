@@ -16,3 +16,32 @@ $greyBg: #fafafa;
         transform: translateY(-10px);
     }
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $metalBlue;
+    padding: 10px;
+    z-index: 100;
+    }
+
+    #navbar.sticky ul li a:hover {
+        color:white;
+        text-decoration: underline;
+    }
+
+// .transformer {
+//     transform: rotate(-90deg);
+//     position: relative;
+//     top: 50vh;
+// }
+
+@keyframes moving {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
