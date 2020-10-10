@@ -1,0 +1,47 @@
+$primaryBtn: linear-gradient(90deg, rgba(159,86,176,1) 27%, rgba(224,77,70,1) 71%);
+$metalBlue: #2d3e50;
+$greyBg: #fafafa;
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes upanddown {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $metalBlue;
+    padding: 10px;
+    z-index: 100;
+    }
+
+    #navbar.sticky ul li a:hover {
+        color:white;
+        text-decoration: underline;
+    }
+
+// .transformer {
+//     transform: rotate(-90deg);
+//     position: relative;
+//     top: 50vh;
+// }
+
+@keyframes moving {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
