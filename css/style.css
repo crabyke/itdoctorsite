@@ -591,6 +591,366 @@
   margin: 0rem 1.5rem;
 }
 
+@media (max-width: 450px) {
+  #header #banner h1 {
+    font-size: 2rem;
+    width: 80%;
+    margin-top: 10vh;
+  }
+  #navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #navbar #nav-bar {
+    display: none;
+  }
+  #hidden-nav {
+    background: #2d3e50;
+    display: none;
+  }
+  #hidden-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0rem;
+    width: 80%;
+  }
+  #navbar #hamburger {
+    display: block;
+  }
+  #navbar #logo, #navbar .fa-bars {
+    margin: 2rem 1rem;
+    padding: 0rem;
+    cursor: pointer;
+  }
+  #form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #header #banner #form .email, #header #banner #form .name, button {
+    width: 80%;
+    margin-bottom: 1.5rem;
+    margin-right: 0rem;
+  }
+  #header #banner .fa-angle-down {
+    display: none;
+  }
+  #three-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #three-block .three {
+    width: 80%;
+    margin: 2.5rem 5rem;
+  }
+  #text-video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 5rem 1rem;
+  }
+  #text-video p {
+    margin-bottom: 2rem;
+  }
+  #text-video #text {
+    width: 80%;
+    margin-right: 0rem;
+  }
+  #text-video video {
+    width: 250px;
+  }
+  #three-cards #cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  #three-cards #cards .card {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+  #three-cards #card-header {
+    text-align: center;
+    font-size: 80%;
+    margin: 0rem 1rem;
+  }
+  #sign-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #sign-up #sign-up-text {
+    width: 80%;
+  }
+  #sign-up #sign-up-form {
+    width: 80%;
+    margin-top: 4rem;
+  }
+  #course-price .price-card-text-top {
+    width: 100%;
+  }
+  #course-price #price-card-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  #course-price #price-card1, #course-price #price-card2 {
+    padding: 2rem;
+  }
+  #back-to-top {
+    background-color: red;
+  }
+}
+
+@media (max-width: 768px) {
+  #header #banner h1 {
+    font-size: 2rem;
+    width: 80%;
+  }
+  #navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #navbar #nav-bar {
+    display: none;
+  }
+  #hidden-nav {
+    background: #2d3e50;
+    display: none;
+  }
+  #hidden-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0rem;
+  }
+  #navbar #logo, #navbar .fa-bars {
+    margin: 2rem 1rem;
+    padding: 0rem;
+    cursor: pointer;
+  }
+  #navbar #hamburger {
+    display: block;
+  }
+  #form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #header #banner #form .email, #header #banner #form .name, button {
+    width: 80%;
+    margin-bottom: 1.5rem;
+    margin-right: 0rem;
+  }
+  #header #banner .fa-angle-down {
+    display: none;
+  }
+  #three-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #three-block .three {
+    width: 80%;
+    margin: 2.5rem 5rem;
+  }
+  #text-video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 5rem 1rem;
+  }
+  #text-video p {
+    margin-bottom: 2rem;
+  }
+  #text-video #text {
+    width: 80%;
+    margin-right: 0rem;
+  }
+  #text-video video {
+    width: 250px;
+  }
+  #three-cards #cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0rem;
+  }
+  #three-cards #cards .card {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+  #three-cards #card-header {
+    text-align: center;
+    font-size: 80%;
+    margin: 0rem 1rem;
+  }
+  #sign-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #sign-up #sign-up-text {
+    width: 80%;
+  }
+  #sign-up #sign-up-form {
+    width: 80%;
+    margin-top: 4rem;
+  }
+  #course-price .price-card-text-top {
+    width: 100%;
+  }
+  #course-price #price-card-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+  }
+  #course-price #price-card1, #course-price #price-card2 {
+    padding: 2rem;
+  }
+}
+
+#hidden-nav, #hamburger {
+  display: none;
+}
+
+#back-to-top {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #2d3e50;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+  border: 1px white solid;
+}
+
+#back-to-top:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
+
 * {
   margin: 0;
   padding: 0;
